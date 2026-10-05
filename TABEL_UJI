@@ -7,10 +7,6 @@ Tabel pengujian digunakan untuk menguji setiap studi kasus dengan beberapa kombi
 | Nilai Cukup | Aktif organisasi| | Hasil |
 |---|---|---|
 | True | True | Peserta LULUS |
-| True | True | Pserta Tidak LULUS |
-| True | True | Peserta Tidak LULUS |
-| True | True | Peserta Tidak LULUS |
-| True | True | Peserta Tidak LULUS |
 
 ## 2. Sistem Beasiswa - AND
 
