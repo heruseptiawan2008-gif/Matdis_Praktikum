@@ -1,10 +1,11 @@
 # MODUL 1 MATEMATIKA DISKRIT
-- NAMA:
-- NIM
-- KELAS
+- NAMA:HERU SEPTIAWAN
+- NIM:260306038
+- KELAS:1B
  ## ALUR MATERI
  BOLEAN
  AND
+ OR
  XOR
  IF-ELSE
  TESTING
@@ -13,8 +14,8 @@
  2.Akses Server
  3.Validasi Registrasi
  4.Aturan Firewall & ACL
- 5.
- 6.
- 7.
- 8.
- 8.
+ 5.Metode Pembayaran
+ 6.Syarat Masuk klub
+ 7.Pilihan Transportasi
+ 8.Status Saklar Lampu
+ 
