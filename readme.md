@@ -18,4 +18,11 @@
  6.Syarat Masuk klub
  7.Pilihan Transportasi
  8.Status Saklar Lampu
+ ## MENJALANKAN PROGRAM
+ Pastikan Python telah Terinstal
+ ## WINDOWS
+ Tekan Windows+R,lalu ketik Cmd untuk Membuka Command prom
+ ~~~bash
+ python nama_file.py
+~~~
  
