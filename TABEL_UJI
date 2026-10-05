@@ -1,0 +1,82 @@
+# TABEL PENGUJIAN
+
+Tabel pengujian digunakan untuk menguji setiap studi kasus dengan beberapa kombinasi kondisi True dan False.
+
+## 1. Sistem Seleksi Siswa - AND
+
+| Nilai Cukup | Aktif organisasi| | Hasil |
+|---|---|---|
+| True | True | Peserta LULUS |
+| True | True | Pserta Tidak LULUS |
+| True | True | Peserta Tidak LULUS |
+| True | True | Peserta Tidak LULUS |
+| True | True | Peserta Tidak LULUS |
+
+## 2. Sistem Beasiswa - AND
+
+| Nilai Tinggi | Aktif Organisasi | Kartu Aktif | Rekomendasi Beasiswa | Hasil |
+|---|---|---|---|
+| True | True | True | Mendapat BEASISWA |
+| True | False | True | Tidak Mendapat BEASISWA |
+| False | True | False | Tidak Mendapat BEASISWA |
+| False | False | True | Tidak Mendapat BEASISWA |
+| False | False | False | Tidak Mendapat Beasiswa |
+
+## 3. Akses Masuk - AND
+
+| Memiliki Kartu | Memakai Jas | Tidak Membawa Makanan | Hasil |
+|---|---|---|---|
+| True | True | True | Boleh Masuk LABORATORIUM |
+| False | False | True | Tidak Boleh Masuk LABORATORIUM |
+| False | True | False | Tidak Boleh Masuk LABORATORIUM |
+| False | False | True | Tidak Boleh Masuk LABORATORIUM |
+| False | False | False | Tidak Boleh Masuk LABORATORIUM |
+
+## 4. Syarat Prioritas - OR
+
+| Prestasi | Sertifikat | Pengalaman | Hasil |
+|---|---|---|---|
+| True | False | False | Peserta Mendapat PRIORITAS |
+| False | True | False | Peserta Mendapat PRIORITAS |
+| False | False | True | Peserta Mendapat PRIORITAS |
+| True | True | False | Peserta Mendapat PRIORITAS |
+| False | False | False | Peserta Mendapat PRIORITAS |
+
+## 5. Syarat Mengikuti Kegiatan - OR
+
+| Anggota | Undangan | Panitia | Hasil |
+|---|---|---|---|
+| True | False | False | Boleh Mengikuti KEGIATAN |
+| False | True | False | Boleh Mengikuti KEGIATAN |
+| False | False | True | Boleh Mengikuti KEGIATAN |
+| True | True | False| Boleh Mengikuti KEGIATAN |
+| False | False | False | Tidak Boleh Mengikuti KEGIATAN |
+
+## 6. Potongan Harga - OR
+
+| Pelajar | Member | Guru | Hasil |
+|---|---|---|
+| True | False | False | Mendapat Potongan HARGA |
+| False | True | False | Mendapat Potongan HARGA |
+| False | False | True | Mendapat Potongan HARGA |
+| True | True | False | Mendapat Potongan HARGA |
+| False | False | False | Tidak Mendapat Potongan HARGA |
+
+
+## 7. Pilihan Jalur Alternatif - XOR
+
+| Jalur A | Jalur B | Hasil |
+|---|---|---|
+| True | False | Pilihan Jalur VALID |
+| False | True | Pilihan Jalur VALID |
+| True | True | Pilihan Jalur Tidak VALID |
+| False | False | Pilihan Jalur Tidak VALID |
+
+## 8. Pemilihan Calon Ketua - XOR
+
+| Kandidat 1 | Kandidat 2 | Hasil |
+|---|---|---|
+| True | False | Pilihan VALID |
+| False | True | Pilihan VALID |
+| True | True | Pilihan Tidak VALID |
+| False | False | Pilihan Tidak VALID |
