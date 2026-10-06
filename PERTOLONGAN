@@ -1,0 +1,12 @@
+# Permasalahan dan Langkah-langkah dalam memuli Percobaan Kasus Bolean
+## Menginstal Python
+Pastikan python sudah terinstal di leptop kalian, jika belum python dapat di instal melalui website python atau kunjungi python.org
+klik download lalu instal setelah itu masuk dan lakukan apa yg diinstruksikan oleh python sebelum dapat diakses.
+jika python belum terinstal maka tidak bisa mengakses cmd.
+
+Error:
+
+'python' is not recognized as an internal or external command
+## Cara Membuka Dan Mengoperasikan Python Di cmd
+setelah python terinstal kemudian kalian akan membuka cmd melalui windows + r kemudian ketik cmd pada Pop-up.
+setelah kalian masuk di cmd untuk memastikan python telah terinstal ketik python --version jika sudah terinstal maka akan keluar nomor versi python ya…
